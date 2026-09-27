@@ -2,6 +2,10 @@
 
 ## 2.14.0
 
+- 2026-09-23 添加转发 ROS 服务 [校准顶升桅杆刻度基准](../reference/ros_services.md#calibrate-mast-tick-base)
+- 2026-09-19 添加转发 ROS 服务 [清除陀螺仪比例标定](../reference/ros_services.md#clear-gyro-scale)
+- 2026-09-16 在 [/planning_state](../reference/websocket.md#planning-state) 中添加 `expected_cargo_action`
+- 2026-09-14 添加 [动态交通信息](../reference/ros_services.md#traffic-info) API，用于读取/替换当前地图的动态禁行区域
 - 2026-08-21 从[建图](../reference/mappings.md#mapping-list)中移除已废弃的地图下载端点及 `download_url` 字段
 - 2026-08-21 在 [建图](../reference/mappings.md#mapping-list) 和 [地图](../reference/maps.md#map-list) 列表/详情响应中添加文件大小（`pbstream_size`、`image_size`、`bag_size`）
 - 2026-08-04 添加 [地图叠加层](../reference/ros_services.md#map-overlays) API，以 GeoJSON 格式读取/替换动态地图叠加层
